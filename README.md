@@ -28,8 +28,7 @@ submit_PE_ChIP.sh <JobTitle> <TargetFile> <Genome>
 		○ Experiment: the replicate number of the experiment, e.g. if there are two replicates, they coule be signed as 1 and 2.
 		
 	  For SE data, 5 columns are needed: FileName, SampleName, Factor, SampleLong, Experiment
-	• <Genome>
-	e.g. mm9 or hg19
+	• <Genome> e.g. mm9 or hg19
 	   
 Output:
 
@@ -41,13 +40,12 @@ Files:
 
 Directories:
   QC: store the QC report the reads
-  TrimFQ: store the good-quality reads after filtering bad reads. Filtering criteria: N count is less than 5%, mean     phred score >20.
+  TrimFQ: store the good-quality reads after filtering bad reads. Filtering criteria: N count is less than 5%, mean phred score >20.
   Bam: store the Bam files
 
 Details of the program:
 
 	1. To run systempipeR, param for each program and sysargs need to be set, please see:
-	
 	https://htmlpreview.github.io/?https://github.com/tgirke/systemPipeR/blob/master/vignettes/systemPipeR.html#structure-of-param-file-and-sysargs-container  
 	
 	2. To run parallel work, a configuartion file and a queue template file are needed. We are using Sun Grid Engine queue system, so a conf file SGEbatchJob.R and template file SGE.tmpl were provided.

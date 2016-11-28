@@ -9,7 +9,7 @@ There are two parallel modes in SystemPipeR:
 	
 Examples of two modes could be seen at https://htmlpreview.github.io/?https://github.com/tgirke/systemPipeR/blob/master/vignettes/systemPipeR.html 
 
-To run rsubread for alignment, theorotically both modes should work. However for pair-end data only clusterRun (after installing rsubread command line) works. For SE data, the bplapply mode is used.
+To run rsubread for alignment, theorotically both modes should work. However for pair-end data only clusterRun (after installing rsubread command line) works. For SE data, the bplapply mode could be used. For consistency, all the data are analyzed in clusterRun mode via rsubread command line (subread-align Version 1.5.0-p3).
 
 To submit alignment job, two shell programs could be used: submit_PE_ChIP.sh （for pair-end data）and submit_SE_ChIP.sh (for single-end data).
 

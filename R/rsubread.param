@@ -1,0 +1,21 @@
+## Parameter file for Rsubread
+## This is a dummy file to support within the systemPipeR workflow 
+## R-based functions that read from input files and write to output files 
+## Values in <...> reference column titles in targets file
+## PairSet 'type' row specifies whether sofware is commandline (system=TRUE) or R (system=FALSE). If line is ommited 'commandline' will be used
+PairSet	Name	Value
+type	system	FALSE
+modules		
+software	NA	Rsubread
+cores	-p	4
+other	NA	
+outfile1	-o	<SampleName>
+outfile1	path	./Bam/
+outfile1	remove	NA
+outfile1	append	.sam
+outfile1	outextension	.bam
+reference	NA	/wa/zhenyisong/bringback/igenome/Homo_sapiens/UCSC/hg19/Sequence/WholeGenomeFasta/genome.fa
+infile1	NA	<FileName1>
+infile1	path	NA
+infile2	NA	<FileName2>
+infile2	path	NA

@@ -1,0 +1,17 @@
+## Parameter file for Bowtie2 PE
+## Values in <...> reference column titles in targets file
+PairSet	Name	Value
+modules	NA	subread/1.5.0-p3
+software	NA	subread-align
+cores	-T	4
+other	NA	-u -t 0
+reference	-i	/wa/zhenyisong/bringback/igenome/Homo_sapiens/UCSC/hg38/hg38
+infile1	-r	<FileName1>
+infile1	path	NA
+infile2	-R	<FileName2>
+infile2	path	NA
+outfile1	-o	<SampleName>
+outfile1	path	./Bam/
+outfile1	remove	NA
+outfile1	append	.bam
+outfile1	outextension	.bam

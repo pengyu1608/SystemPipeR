@@ -1,4 +1,5 @@
 #!/bin/bash
+#create Targets.txt file for Pair-end seq data needed by systemPipeR
 
 DIR=`pwd`
 

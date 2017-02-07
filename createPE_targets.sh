@@ -1,13 +1,17 @@
-Dir=`pwd`
+#!/bin/bash
 
-echo  "FileName1	FileName2	SampleName	Factor	SampleLong	Experiment" >Targets.txt
+DIR=`pwd`
 
-for i in `ls *1.sanger.fastq.gz`  #change the name to your first read file
+echo -e "FileName1\tFileName2\tSampleName\tFactor\tSampleLong\tExperiment" >Targets.txt
+
+for i in `ls *001.fastq.gz`  #change the name to your first read file
 
 do
 
-fileName1=$Dir"/"$i
-fileName2=${fileName1/1.sanger/2.sanger}
+fileName1=$DIR"/"$i
+fileName2=${fileName1/_001/_002}
 
-echo "$fileName1	$fileName2	Sample	Sample	Sample	1" >> Targets.txt
+i=${i%%_S*_R*_001.fastq*}
+
+echo -e "$fileName1\t$fileName2\t$i\tSi\t$i\t1" >> Targets.txt
 done

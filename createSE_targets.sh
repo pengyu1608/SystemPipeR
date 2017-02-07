@@ -1,18 +1,15 @@
 #!/bin/bash
-#create Targets.txt file for Single-end seq data needed by systemPipeR
 
 DIR=`pwd`
 
-echo -e "FileName1\tFileName2\tSampleName\tFactor\tSampleLong\tExperiment" >Targets.txt
+echo -e "FileName\tSampleName\tFactor\tSampleLong\tExperiment" >Targets.txt
 
-for i in `ls *001.fastq.gz`  #change the name to your first read file
+for i in `ls *fastq *fastq.gz`
 
 do
 
-fileName1=$DIR"/"$i
-fileName2=${fileName1/_001/_002}
-
+fileName=$DIR"/"$i
 i=${i%%_S*_R*_001.fastq*}
 
-echo -e "$fileName1\t$fileName2\t$i\tSi\t$i\t1" >> Targets.txt
+echo -e "$fileName\t$i\t$i\t$i\t1" >> Targets.txt
 done

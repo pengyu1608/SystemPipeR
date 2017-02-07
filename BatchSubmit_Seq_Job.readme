@@ -21,10 +21,9 @@ Parameters:
 *Cycles Read 1: length of read1
 *Cycles Read 2: length of read2
 
-![Fig. 1](NextSeq FastQ Setting.png)
-
-2) In the next page, select "New Plate"
+2) In the next page, select "New Plate" and input Plate Name.
    Fill in Sample ID, Sample Name. Select right Index number e.g. A001. The software will automatically fill sequence of index later.
+   Finish and save the plate file.
    
 3) Create SampleSheet
    After filling Plate Information, select all samples and click the button "" 

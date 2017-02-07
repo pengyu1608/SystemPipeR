@@ -1,4 +1,4 @@
- f# SystemPipeR
+# SystemPipeR
 
 ##Object: use SystemPipeR to batch submit NGS read for alignment.
 

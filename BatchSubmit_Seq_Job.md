@@ -27,4 +27,4 @@ Parameters:
    Finish and save the plate file.
    
 3) Create SampleSheet
-   After filling Plate Information, select all samples and click the button "" 
+   After filling Plate Information, select all samples and click the button "".

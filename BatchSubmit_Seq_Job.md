@@ -20,7 +20,7 @@ Parameters:
 *Read Type: SE or PE
 *Cycles Read 1: length of read1
 *Cycles Read 2: length of read2
-![Fig. 3](SampleSelection.png)
+
 
 2) In the next page, select "New Plate" and input Plate Name.
    Fill in Sample ID, Sample Name. Select right Index number e.g. A001. The software will automatically fill sequence of index later.

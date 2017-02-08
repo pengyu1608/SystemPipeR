@@ -2,7 +2,7 @@
 
 ##Object: use SystemPipeR to batch submit NGS reads for alignment.
 
-To submit alignment job, a sery of shell programs could be used: submit_PE_ChIP.sh (pair-end) and submit_SE_ChIP.sh (single-end) for ChIP-seq data; submit_PE_rna.sh and submit_SE_rna.sh for RNA-Seq.
+To submit alignment job, a serie of shell programs could be used: submit_PE_ChIP.sh (pair-end) and submit_SE_ChIP.sh (single-end) for ChIP-seq data; submit_PE_rna.sh and submit_SE_rna.sh for RNA-Seq.
 
 Usuage: (Take submit_PE_ChIP.sh as example)
 

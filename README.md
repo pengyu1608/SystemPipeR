@@ -49,7 +49,7 @@ Details of the program:
 	https://htmlpreview.github.io/?https://github.com/tgirke/systemPipeR/blob/master/vignettes/systemPipeR.html#structure-of-param-file-and-sysargs-container  
 	
 	2. To run parallel work, a configuartion file and a queue template file are needed. We are using Sun Grid Engine queue system, so a conf file SGEbatchJob.R and template file SGE.tmpl were provided.
-	
-	
+
+![Test Image](SampleSelect.png)
 
 

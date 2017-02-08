@@ -26,7 +26,7 @@ Parameters:
 ![Fig 2](Plate Name.png)
 
 **Fill in Sample ID, Sample Name. Select right Index number e.g. A001. The software will automatically fill sequence of index later.
-Finish and save the plate file.
+Finish and save the plate file.**
 
 ![Fig 3](Sample Plate Wizard.png)
    
@@ -47,7 +47,7 @@ After filling Plate Information, select all samples and add them to sample table
 
   ```
   
-  **Final Results**
+  **6) Final Results**
   
   **The demultiplexed and adaptor-trimmed fastq files would be found under the directory of Data/Intensities/BaseCalls**
   

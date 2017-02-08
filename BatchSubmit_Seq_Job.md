@@ -8,7 +8,7 @@ processing is to demultiplex samples.
 Illumina supplies a tool bcl2fastq2 to do the job. It could demultiplex and trim adaptors simutaneously. 
 You need to prepare a SampleSheet.csv file. Firstly install Illumina Expriment Manager (IEM) on your computer.
 
-1) After opening IEM, choose "Create Sample Sheet" -> "NextSeq" -> "NextSeq Fastq Only"
+1) **After opening IEM, choose "Create Sample Sheet" -> "NextSeq" -> "NextSeq Fastq Only"**
 
 ![Fig 1](NextSeq FastQ Setting.png)
 
@@ -23,13 +23,15 @@ Parameters:
 *Cycles Read 1: length of read1
 *Cycles Read 2: length of read2
 
-
 2) In the next page, select "New Plate" and input Plate Name.
+
 ![Fig 2](Plate Name.png)
 
-   Fill in Sample ID, Sample Name. Select right Index number e.g. A001. The software will automatically fill sequence of index later.
-   Finish and save the plate file.
+Fill in Sample ID, Sample Name. Select right Index number e.g. A001. The software will automatically fill sequence of index later.
+Finish and save the plate file.
+
+![Fig 3](Sample Plate Wizard.png)
    
 3) Create SampleSheet
-   After filling Plate Information, select all samples and add them to sample table.
-![Fig 3](Sample Plate Wizard.png)
+After filling Plate Information, select all samples and add them to sample table.
+

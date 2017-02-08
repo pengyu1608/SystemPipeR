@@ -6,7 +6,7 @@ To submit alignment job, a sery of shell programs could be used: submit_PE_ChIP.
 
 Usuage: (Take submit_PE_ChIP.sh as example)
 
-submit_PE_ChIP.sh <OutputDir> <JobTitle> <TargetFile> <Genome>
+submit_PE_ChIP.sh \<OutputDir\> \<JobTitle\> \<TargetFile\> \<Genome\>
 
 	• <OutputDir> the path to output your results
 	• <JobTitle> is the name of the project, e.g. 2016_mES_ChIP. The program will create a directory named as JobTitle in the OutputDir directory.

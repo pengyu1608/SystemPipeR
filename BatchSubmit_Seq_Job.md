@@ -1,4 +1,4 @@
-fi#Pre-process raw sequencing data and submit fastq files to server
+#Pre-process raw sequencing data and submit fastq files to server
 
 Usually one sequencing run is composed of a group of samples (e.g. 24). Each sample has a unique index. So the first step of data 
 processing is to demultiplex samples.
@@ -25,7 +25,7 @@ Parameters:
 
 ![Fig 2](Plate Name.png)
 
-Fill in Sample ID, Sample Name. Select right Index number e.g. A001. The software will automatically fill sequence of index later.
+**Fill in Sample ID, Sample Name. Select right Index number e.g. A001. The software will automatically fill sequence of index later.
 Finish and save the plate file.
 
 ![Fig 3](Sample Plate Wizard.png)
@@ -52,4 +52,4 @@ After filling Plate Information, select all samples and add them to sample table
   **The demultiplexed and adaptor-trimmed fastq files would be found under the directory of Data/Intensities/BaseCalls**
   
   
-   :+1: This PR looks great - it's ready to merge! :shipit:
+   :+1: This PR looks great :shipit:

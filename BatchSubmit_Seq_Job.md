@@ -1,4 +1,3 @@
-#Aim of this file
 #Pre-process raw sequencing data and submit fastq files to server
 
 1. Pre-processing raw data
@@ -10,6 +9,9 @@ Illumina supplies a tool bcl2fastq2 to do the job. It could demultiplex and trim
 You need to prepare a SampleSheet.csv file. Firstly install Illumina Expriment Manager (IEM) on your computer.
 
 1) After opening IEM, choose "Create Sample Sheet" -> "NextSeq" -> "NextSeq Fastq Only"
+
+![Fig 1](NextSeq FastQ Setting.png)
+
 Parameters:
 *Regent kit barcode: e.g. 15025063, check the vendor package
 *Lirary Prep kit: e.g. TrueSeq LT
@@ -23,8 +25,11 @@ Parameters:
 
 
 2) In the next page, select "New Plate" and input Plate Name.
+![Fig 2](Plate Name.png)
+
    Fill in Sample ID, Sample Name. Select right Index number e.g. A001. The software will automatically fill sequence of index later.
    Finish and save the plate file.
    
 3) Create SampleSheet
-   After filling Plate Information, select all samples and click the button "".
+   After filling Plate Information, select all samples and add them to sample table.
+![Fig 3](Sample Plate Wizard.png)
